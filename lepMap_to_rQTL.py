@@ -84,5 +84,5 @@ names = ['list', 'of', 'names']
 
 inner_join.columns = names
 
-# write to csv! now this can be loaded into rQTL. 
+# write to csv! from there it's super easy to transpose in excel and load into rQTL. see avi karn's tutorial for example datasheet: https://avikarn.com/2019-04-17-Genetic-Mapping-in-Lep-MAP3/
 inner_join.to_csv("linkageMap.csv")
