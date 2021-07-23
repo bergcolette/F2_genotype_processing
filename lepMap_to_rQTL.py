@@ -17,6 +17,9 @@ genotype_1 = genotype1.iloc[5:]
 genotype_2 = genotype1.iloc[5:]
 
 # the linkage groups won't be in the same order as those from the physical map, so you can rename them
+# you may need to go back to lepMap3 to check which markers ended up in which linkage group
+## you can use this command in lepMap for that: cut -f1,2 p.call > cut_pcall.txt
+## that will give you a list of the physical site names & where they ended up in the lepMap linkage map
 
 genotype_1['CHR'] = 'linkage_group_name1'
 genotype_2['CHR'] = 'linkage_group_name2'
