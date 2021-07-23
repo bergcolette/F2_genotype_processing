@@ -45,3 +45,6 @@ awk -vfullData=1 -f  map2genotypes.awk PCF2_windows_chr1.5 > genotypes1.txt
 # now you have text files with the map location & the genotypes. 
 # I do some further processing to get all the linkage groups in one file with the right individual & site names 
 # (in another text file)
+
+# also, avi karn's tutorial on this topic is fantastic : https://avikarn.com/2019-04-17-Genetic-Mapping-in-Lep-MAP3/
+
